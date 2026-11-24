@@ -1,0 +1,8 @@
+# local creds / secrets — never commit
+creds.env
+creds.ignore
+*.service.json
+sap_cookies.json
+.env
+node_modules/
+*.tgz
