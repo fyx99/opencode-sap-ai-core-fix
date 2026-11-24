@@ -110,7 +110,10 @@ The durable fix belongs in opencode's model registry: the `sap-ai-core` entry on
 `@jerome-benoit/sap-ai-provider-v2`. Alternatively opencode's V2→V3 finish-reason bridge should not
 collapse unmapped/`"unknown"` reasons to `"other"` (a value absent from its own step-finish schema).
 
-A ready-to-file issue is in [`docs/upstream-issue.md`](docs/upstream-issue.md).
+A ready-to-file issue is in [`docs/upstream-issue.md`](docs/upstream-issue.md). Filed upstream:
+
+- models.dev registry: [anomalyco/models.dev#14467](https://github.com/anomalyco/models.dev/issues/14467)
+- opencode bridge: [anomalyco/opencode#66153](https://github.com/anomalyco/opencode/issues/66153)
 
 ## Credits
 

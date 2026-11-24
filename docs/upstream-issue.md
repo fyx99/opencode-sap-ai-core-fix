@@ -1,8 +1,12 @@
-# Upstream issue draft
+# Upstream issues
 
-Two places could carry the durable fix. The registry change (A) is the smallest and fixes it for
-every opencode user; the bridge change (B) is a more general hardening. File A first; reference B as
-an alternative.
+**Filed:**
+- (A) Registry — **anomalyco/models.dev#14467**: https://github.com/anomalyco/models.dev/issues/14467
+- (B) Bridge — **anomalyco/opencode#66153**: https://github.com/anomalyco/opencode/issues/66153
+
+Two places carry the durable fix. The registry change (A) is the smallest and fixes it for every
+opencode user; the bridge change (B) is a more general hardening (so no V2-interface provider can
+crash the session drain). The drafts that were filed are below.
 
 ---
 
